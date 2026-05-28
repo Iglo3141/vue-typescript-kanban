@@ -1,0 +1,9 @@
+services:
+  vue-dev:
+    image: node:alpine
+    working_dir: /app
+    ports:
+      - "5173:5173"
+    volumes:
+      - .:/app
+    command: npm run dev -- --host
