@@ -25,7 +25,7 @@ This project uses a containerized development environment via Docker. You do not
 
 Make sure you have [Docker Desktop](https://docker.com) installed and running.
 
-### Running the App Locally
+### Running the App Locally (development)
 
 1. **Clone the repository:**
 
@@ -49,3 +49,13 @@ Make sure you have [Docker Desktop](https://docker.com) installed and running.
 
 4. **Access the application:**
    Open your browser and navigate to **[http://localhost:5173](http://localhost:5173)**.
+
+### 🚀 Quick Production Preview (Recommended)
+
+If you just want to view the optimized application without setting up a development environment, run:
+
+```bash
+docker compose up vue-prod
+```
+
+Then open **[http://localhost:8080](http://localhost:8080)** in your browser.
